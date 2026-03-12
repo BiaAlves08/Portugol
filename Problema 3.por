@@ -1,27 +1,34 @@
 programa
 {
-	 // programa exemplo - fluxograma
-	 funcao inicio()
-     {
-     	inteiro num
+	
+	funcao inicio()
+	{
+	inteiro vlA, vlB
+	inteiro c
 
-     	escreva ("Digite um numero:")
-     	leia (num)
-     	
-     	se (num>10) {
-     	escreva("Valor maior que 10")
+	escreva("Valor A: ")
+	leia(vlA)
+	escreva ("Valor B: ")
+	leia(vlB)
+	escreva("\nValor de A= ", vlA, "\nValor de B= ", vlB)
+	
+	se (vlA==vlB) {
+		escreva("\nTotal: ", c=vlA+vlB)
 	}
 	senao {
-		escreva("Valor menor que 10")
+		escreva("\nTotal: ", c=vlA*vlB)
 	}
-     }
-}
+	}
+
+	}
+
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 149; 
+ * @POSICAO-CURSOR = 191; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
